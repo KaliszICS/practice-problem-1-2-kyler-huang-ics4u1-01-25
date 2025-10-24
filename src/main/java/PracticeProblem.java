@@ -2,7 +2,7 @@ public class PracticeProblem {
 
 	public static void main(String args[]) {
 		int[] q1Arry = {2,3,4,5,6};
-		boolean returned_value = validIndex(-2,q1Arry); // returns false
+		boolean returned_value = validIndex(q1Arry, -2); // returns false
 		System.out.println(returned_value); 
 
 		int returned_value_2 = divide(2, 0); // returns 0
@@ -12,7 +12,7 @@ public class PracticeProblem {
 		System.out.println(convertedToInt);
 	}
 
-	public static boolean validIndex(int _index, int[] arr){
+	public static boolean validIndex(int[] arr, int _index){
 		try {
 			int getValue = arr[_index];
 		}
